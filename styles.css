@@ -1,0 +1,204 @@
+body {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente a Arial */
+    background-image: url('fondo.jpg'); /* Agrega la imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen de fondo */
+    color: #333; /* Color del texto */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: auto; /* Centra el contenedor */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad para el contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+h1.message {
+    color: #eb03c8; /* Color del encabezado */
+    text-align: center; /* Centra el texto */
+    font-size: 2.5em; /* Tamaño de fuente más grande */
+    margin-bottom: 20px; /* Espacio debajo del encabezado */
+}
+
+p {
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin-bottom: 15px; /* Espacio entre párrafos */
+    font-size: 1.1em; /* Tamaño de fuente */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra los botones */
+    margin-top: 20px; /* Espacio encima de los botones */
+}
+
+.button {
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 1em; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.button-yes {
+    background-color: #4CAF50; /* Color de fondo del botón "Sí" (verde) */
+    color: white; /* Color del texto del botón */
+}
+
+.button-yes:hover {
+    background-color: #45a049; /* Color de fondo al pasar el mouse */
+}
+
+.button-no {
+    background-color: #f44336; /* Color de fondo del botón "No" (rojo) */
+    color: white; /* Color del texto del botón */
+}
+
+.button-no:hover {
+    background-color: #e53935; /* Color de fondo al pasar el mouse */
+}
+
+.carousel {
+    position: relative;
+    max-width: 300px; /* Ajusta el ancho según tus necesidades */
+    margin: auto;
+    overflow: hidden;
+    border-radius: 8px; /* Bordes redondeados para el carrusel */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-image {
+    min-width: 100%;
+    display: none; /* Oculta todas las imágenes por defecto */
+}
+
+.carousel-image.active {
+    display: block; /* Muestra solo la imagen activa */
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%; /* Botones redondeados */
+    padding: 10px; /* Espaciado interno */
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+.container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: auto; /* Centra el contenedor */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad para el contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-height: 90vh; /* Altura máxima del contenedor */
+    overflow-y: auto; /* Permite el desplazamiento vertical dentro del contenedor */
+}
+body {
+    background-image: url('imagen1.jpg'); /* Cambia la ruta a la de tu imagen */
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center ; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: white; /* Cambia el color del texto para que sea legible sobre la imagen */
+    font-family: Arial, sans-serif; /* Establece la fuente del texto */
+}
+
+.container {
+    padding: 20px; /* Añade un poco de espacio alrededor del contenido */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para que el texto sea más legible */
+    border-radius: 10px; /* Bordes redondeados */
+}
+/* styles.css */
+
+/* Estilo para la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a; /* Color del fondo de la barra de desplazamiento */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4a4a4a; /* Color del "pulgar" de la barra de desplazamiento */
+    border-radius: 10px; /* Bordes redondeados */
+    transition: background 0.3s; /* Transición suave al cambiar el color */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7a7a7a; /* Color del "pulgar" al pasar el mouse */
+}
+
+/* Para Firefox */
+* {
+    scrollbar-width: thin; /* Ancho de la barra de desplazamiento */
+    scrollbar-color: #4a4a4a #1a1a1a; /* Color del "pulgar" y del fondo */
+}
+img{  
+    position: relative;
+    max-width: 300px; /* Ajusta el ancho según tus necesidades */
+    margin: auto;
+    overflow: hidden;
+    border-radius: 8px; /* Bordes redondeados para el carrusel */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+/* styles.css */
+body {
+    margin: 0; /* Eliminar márgenes del body */
+    height: 100vh; /* Altura completa de la ventana */
+    display: flex; /* Usar flexbox para centrar el contenido */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    background-color: #f0f0f0; /* Color de fondo */
+}
+
+.container {
+    text-align: center; /* Centrar el texto */
+}
+
+.button-container {
+    margin-top: 20px; /* Espacio entre el mensaje y los botones */
+}
+
+.button {
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Eliminar bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor a una mano */
+    width: 100px; /* Ancho fijo para evitar movimiento */
+    height: 50px; /* Altura fija para evitar movimiento */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+.button-no {
+    background-color: #ff0000; /* Color de fondo rojo */
+    color: white; /* Color del texto blanco */
+}
+
+.button-yes {
+    background-color: #00ff00; /* Color de fondo verde */
+    color: white; /* Color del texto blanco */
+}
